@@ -1,3 +1,4 @@
+#!/bin/python3.6
 """
 Simple tool for keeping track of the time spent on a project
 """
@@ -23,7 +24,7 @@ class TimeKeeper3000:
         frame = tk.Frame(self.root_tk, width=500, height=250)
         
         # Logo and headers
-        logo_img = tk.PhotoImage(file='logo.png')
+        logo_img = tk.PhotoImage(file='logo.gif')
         tk.Label(frame, image=logo_img).grid(row=0, rowspan=2, column=0, columnspan=5, padx=10, pady=12)
         tk.Label(frame, text='Time').grid(row=2, column=0, columnspan=2, padx=10)
         tk.Label(frame, text='Comment').grid(row=2, column=3, padx=10)
